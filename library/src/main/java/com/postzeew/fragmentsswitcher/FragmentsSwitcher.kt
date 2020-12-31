@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 
-class FragmentSwitcher(
+class FragmentsSwitcher(
     private val fragmentsFactory: FragmentsFactory,
     @IdRes private val fragmentsContainer: Int
 ) {
